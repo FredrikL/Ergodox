@@ -18,8 +18,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "ESC",
-                    "label": "ESC"
+                    "key": "CONS:MUTE",
+                    "label": "MUTE"
                 },
                 "1": {
                     "key": "F11",
@@ -310,8 +310,12 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "LALT",
-                    "label": "LALT"
+                    "key": "CONS:VOLUMEUP",
+                    "label": "VOL+"
+                },
+                "1": {
+                    "key": "CONS:SCANNEXTTRACK",
+                    "label": "NEXT"
                 }
             }
         },
@@ -323,8 +327,12 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "LCTRL",
-                    "label": "LCTRL"
+                    "key": "CONS:VOLUMEDOWN",
+                    "label": "VOL-"
+                },
+                "1": {
+                    "key": "CONS:SCANPREVIOUSTRACK",
+                    "label": "PREV"
                 }
             }
         },
@@ -708,10 +716,6 @@
                     "key": "U",
                     "label": "U"
                 },
-                "1": {
-                    "key": "UP",
-                    "label": "\u2191"
-                },
                 "2": {
                     "key": "P7",
                     "label": "P7"
@@ -792,10 +796,6 @@
                 "0": {
                     "key": "H",
                     "label": "H"
-                },
-                "1": {
-                    "key": "LEFT",
-                    "label": "\u2190"
                 }
             }
         },
@@ -809,10 +809,6 @@
                 "0": {
                     "key": "J",
                     "label": "J"
-                },
-                "1": {
-                    "key": "DOWN",
-                    "label": "\u2193"
                 },
                 "2": {
                     "key": "P4",
@@ -831,10 +827,6 @@
                     "key": "K",
                     "label": "K"
                 },
-                "1": {
-                    "key": "RIGHT",
-                    "label": "\u2192"
-                },
                 "2": {
                     "key": "P5",
                     "label": "P5"
@@ -851,10 +843,6 @@
                 "0": {
                     "key": "L",
                     "label": "L"
-                },
-                "1": {
-                    "key": "LGUI",
-                    "label": "LGUI"
                 },
                 "2": {
                     "key": "P6",
